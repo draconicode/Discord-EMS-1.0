@@ -23,5 +23,5 @@ What i want to add in the future:\
   A list of bots if you choose to save the token, like that you will be able to choose the bot you want in a list.\
   Saving the entire embed in a json file (or more if needed)\
   \
-If you notice any bugs, or if you have suggestions, you can join this Discord server : https://discord.gg/2sa4tnq\
+If you notice any bugs, or if you have suggestions, you can join this Discord server : https://discord.gg/2sa4tnq
   
