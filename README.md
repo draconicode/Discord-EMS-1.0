@@ -45,3 +45,25 @@ August 02 2018\
 			missing "return;" statement after showing an error when the embedbuilder is empty\
 			Normal field window saving the field even if empty\
 			Broken if token .properties file does not exist at startup\
+			
+September 16 2018\
+	1.3: Optimization Update\
+		Features:\
+			Moved the Guild/Channel selection to a separate window (adress window)\
+			Added "tag @everyone" check box to the adress window\
+			Added a bot list (you can now save more than one bot, yay !)\
+			Custom JOptionPane replacement\
+			Removed duplicate class for editing fields\
+			Moved the methods to build the embed builder to a separate class (300+ lines)\
+			Remade the status display\
+			The tool now uses JRE Cross-plateform look and feel on Linux distros\
+			Added a delaying function (HH:mm) for sending messages at a selected hour (by steps of 5mins).\
+\
+		Bugfixes:\
+			Opening color chooser or fields window indefinitly.\
+			Fixed a bug that occured while loading an embed (Field and blankfield arraylist returning null when empty)\
+			Fixed missing character in hex color code when int below 16 (0F was displaying as F)\
+			Fixed fields names after loading an embed.\
+			Fixed fields name duplicating in the Fields combobox when editing one, therefore, duplicating this field in the embed message\
+			Main GUI still accessible when the splashcreen is displayed (yep, again.)\
+			EmbedBuilder crashing when the image/thumbnail url is not starting with http/https\
