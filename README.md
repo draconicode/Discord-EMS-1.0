@@ -25,4 +25,5 @@ October 21 2018\
 --------Bugfixes:\
 ------------Fixed "make clickable" window (messed up if statement (i want to die))\
 ------------Embeds were impossible to save 'cuz i messed a if statement and forgot one (please, kill me)\
-------------Now, an error message will appear if footer/author checkBox is selected but no text in textFields when the send btn is clicked.
+------------Now, an error message will appear if footer/author checkBox is selected but no text in textFields when the send btn is clicked.\
+------------Guild comboBox keeping its items when closed.
