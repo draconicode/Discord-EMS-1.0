@@ -17,7 +17,7 @@ Features :\
 --Color chooser\
 
 If you notice any bugs, or if you have suggestions, you can join this Discord server : https://discord.gg/2sa4tnq \
-If you want to see the roadmap and the advancement i make, go check the project's trello ! : https://trello.com/b/Melzfmkg/discord-ems \
+If you want to see the roadmap and the advancement i make, go check the project's trello ! : https://trello.com/b/Melzfmkg/discord-ems 
   
 
 October 21 2018\
@@ -25,4 +25,4 @@ October 21 2018\
 --------Bugfixes:\
 ------------Fixed "make clickable" window (messed up if statement (i want to die))\
 ------------Embeds were impossible to save 'cuz i messed a if statement and forgot one (please, kill me)\
-------------Now, an error message will appear if footer/author checkBox is selected but no text in textFields when the send btn is clicked.\
+------------Now, an error message will appear if footer/author checkBox is selected but no text in textFields when the send btn is clicked.
