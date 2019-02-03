@@ -34,3 +34,14 @@ January 26 2019\
 --------Bugfixes:\
 ------------Fixed "make clickable" window (this time because i put the wrong event for the closing of the window...)\
 ------------Fixed A LOT of bugs because of the externalization\
+
+February 03 2019
+----1.4.1: Bugfixes
+--------Features:
+------------Added paste popupMenu to Title, Description, Author and Footer.
+--------Bugfixes:
+------------Footer imgField not working (missplaced !=)
+------------Console closing when the tool restarts for language change
+------------Blank field window not translated
+
+
