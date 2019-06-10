@@ -15,33 +15,19 @@ Features :\
 --Delayed messages\
 --Save/Load Embeds\
 --Color chooser\
+--Installer\
+--Auto-Updater\
 
-If you notice any bugs, or if you have suggestions, you can join this Discord server : https://discord.gg/2sa4tnq \
-If you want to see the roadmap and the advancement i make, go check the project's trello ! : https://trello.com/b/Melzfmkg/discord-ems 
+If you want to see the roadmap and the advancement i make, go check the project's trello ! : https://trello.com/b/Melzfmkg/discord-ems \
   
 
-January 26 2019\
-----1.4.0: Customization Update\
---------Features:\
-------------Added French translations (some things are still in english, because externalization cannot be done on those)\
-------------Added HSL color selection and Discord colors to the color chooser.\
-------------Custom MenuBar replacement.\
-------------Custom console alongside "showConsole" argument when launching the jar executable.\
-------------Custom made Bot list.\
-------------Internal code optimizations.\
-------------"Preview Image" and "Paste" menuItem in Image and Thumbnail fields\
-------------Updated to JDA 3.8.1_454\
---------Bugfixes:\
-------------Fixed "make clickable" window (this time because i put the wrong event for the closing of the window...)\
-------------Fixed A LOT of bugs because of the externalization\
-
-February 03 2019\
-----1.4.1: Bugfixes\
---------Features:\
-------------Added paste popupMenu to Title, Description, Author and Footer.\
---------Bugfixes:\
-------------Footer imgField not working (missplaced !=)\
-------------Console closing when the tool restarts for language change\
-------------Blank field window not translated\
-
+June 10 2019
+----1.5.0: Updater-Installer
+--------Features:
+------------Added Updater
+------------Remade the entire field handling system (Fields are now handled inside of an arraylist instead of json files)
+--------Bugfixes:
+------------Fixed the tool not launching if ther properties file doesn't exists.
+--------Miscellaneous:
+------------Remade the icon for "Open config folder", and "Change token"
 
