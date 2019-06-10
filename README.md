@@ -21,13 +21,13 @@ Features :\
 If you want to see the roadmap and the advancement i make, go check the project's trello ! : https://trello.com/b/Melzfmkg/discord-ems \
   
 
-June 10 2019
-----1.5.0: Updater-Installer
---------Features:
-------------Added Updater
-------------Remade the entire field handling system (Fields are now handled inside of an arraylist instead of json files)
---------Bugfixes:
-------------Fixed the tool not launching if ther properties file doesn't exists.
---------Miscellaneous:
-------------Remade the icon for "Open config folder", and "Change token"
+June 10 2019\
+----1.5.0: Updater-Installer\
+--------Features:\
+------------Added Updater\
+------------Remade the entire field handling system (Fields are now handled inside of an arraylist instead of json files)\
+--------Bugfixes:\
+------------Fixed the tool not launching if ther properties file doesn't exists.\
+--------Miscellaneous:\
+------------Remade the icon for "Open config folder", and "Change token"\
 
