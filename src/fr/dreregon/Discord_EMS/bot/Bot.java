@@ -24,7 +24,7 @@ public class Bot {
 	public static void startBot(String token, int status) {
 		Sys_Splash.main(null);
 		try {
-			jda = new JDABuilder(AccountType.BOT).setToken(token).buildAsync();
+			jda = new JDABuilder(AccountType.BOT).setToken(token).build();
 		} catch (ErrorResponseException e) {
 			//Sys_Util.println(e.getErrorResponse().toString());
 			Sys_Util.println("<Bot> - Error : "+e.getMessage());

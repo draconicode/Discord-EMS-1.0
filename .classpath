@@ -17,20 +17,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/slf4j-1.7.25/log4j-over-slf4j-1.7.25.jar"/>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/slf4j-1.7.25/slf4j-simple-1.7.25.jar"/>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/JDA/JDA-3.8.1_454-withDependencies-no-opus.jar" sourcepath="H:/Programming libraries/JAVA LIBRARIES/JDA/JDA-3.8.1_454-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/H:/Programming%20libraries/JAVA%20LIBRARIES/JDA/JDA-3.8.1_454-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/swingx-2.6.20130530.jar"/>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/commons-io-2.6.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/H:/Java%20Libraries/commons-io-2.6/commons-io-2.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/JNA/jna-5.3.1.jar"/>
-	<classpathentry kind="lib" path="H:/Programming libraries/JAVA LIBRARIES/JNA/jna-platform-5.3.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

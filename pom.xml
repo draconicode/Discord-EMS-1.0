@@ -1,44 +1,80 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>fr.derergon</groupId>
-  <artifactId>fr.dreregon.DiscordEmbedSender</artifactId>
-  <version>1.0</version>
-  <name>Discord embed-messages sender</name>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  
-  <dependencies>
-  
-  
-  <dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.9.10.1</version>
-</dependency>
-  
-  <dependency>
-    <groupId>net.dv8tion</groupId>
-    <artifactId>JDA</artifactId>
-    <version>3.7.1_385</version>
-</dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>fr.derergon</groupId>
+	<artifactId>fr.dreregon.DiscordEmbedSender</artifactId>
+	<version>1.0</version>
+	<name>Discord embed-messages sender</name>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
   
   <repositories>
-  <repository>
+<repository>
     <id>jcenter</id>
     <name>jcenter-bintray</name>
-    <url>http://jcenter.bintray.com</url>
+    <url>https://jcenter.bintray.com</url>
 </repository>
   </repositories>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-api</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-simple</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.6</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>net.java.dev.jna</groupId>
+  		<artifactId>jna</artifactId>
+  		<version>4.5.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>net.java.dev.jna</groupId>
+  		<artifactId>jna-platform</artifactId>
+  		<version>4.5.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>log4j-over-slf4j</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.fasterxml.jackson.core</groupId>
+  		<artifactId>jackson-databind</artifactId>
+  		<version>2.10.3</version>
+  	</dependency>
+  	<dependency>
+    	<groupId>net.dv8tion</groupId>
+    	<artifactId>JDA</artifactId>
+    	<version>3.8.3_464</version>
+    	<exclusions>
+        	<exclusion>
+            <groupId>club.minnced</groupId>
+            <artifactId>opus-java</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+  </dependencies>
 </project>
