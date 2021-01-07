@@ -23,7 +23,7 @@ import fr.dreregon.Discord_EMS.system.GUI.Gui_Token;
 
 public class Sys_Start {
 
-	public static String version = "1.6.0_3";
+	public static String version = "1.7.0_0";
 	public static boolean windows = false;
 	public static boolean fr = false;
 	public static boolean en = true;

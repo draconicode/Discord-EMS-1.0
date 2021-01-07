@@ -20,20 +20,20 @@ import fr.dreregon.Discord_EMS.system.Sys_Util;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Main;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Network;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Token;
-import net.dv8tion.jda.core.JDA;
-import net.dv8tion.jda.core.entities.Guild;
-import net.dv8tion.jda.core.events.DisconnectEvent;
-import net.dv8tion.jda.core.events.Event;
-import net.dv8tion.jda.core.events.ExceptionEvent;
-import net.dv8tion.jda.core.events.ReadyEvent;
-import net.dv8tion.jda.core.events.ReconnectedEvent;
-import net.dv8tion.jda.core.hooks.EventListener;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.entities.Guild;
+import net.dv8tion.jda.api.events.DisconnectEvent;
+import net.dv8tion.jda.api.events.ExceptionEvent;
+import net.dv8tion.jda.api.events.GenericEvent;
+import net.dv8tion.jda.api.events.ReadyEvent;
+import net.dv8tion.jda.api.events.ReconnectedEvent;
+import net.dv8tion.jda.api.hooks.EventListener;
 
 public class BotListener implements EventListener{
 	private static List<Guild> guilds;
 
 	@Override
-	public void onEvent(Event e) {
+	public void onEvent(GenericEvent e) {
 		if(e instanceof ReadyEvent) {
 			Sys_Splash.remSplash();
 			JDA jda = Bot.getJDA();
@@ -102,5 +102,6 @@ public class BotListener implements EventListener{
 	public static List<Guild> getGuildsList() {
 		return guilds;
 	}
+
 
 }

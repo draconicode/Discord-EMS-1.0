@@ -78,6 +78,7 @@ public class Gui_BotListV2 extends JFrame {
 					frame.setVisible(true);
 					opened = true;
 					Sys_Util.openedWindows.add("BotList");
+					frame.pack();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

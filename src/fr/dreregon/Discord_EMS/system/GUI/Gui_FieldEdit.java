@@ -18,7 +18,7 @@ import fr.dreregon.Discord_EMS.system.Sys_Util;
 import javax.swing.JScrollPane;
 import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
-import net.dv8tion.jda.core.entities.MessageEmbed.Field;
+import net.dv8tion.jda.api.entities.MessageEmbed.Field;
 
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -68,8 +68,10 @@ public class Gui_FieldEdit {
 				try {
 					Gui_FieldEdit window = new Gui_FieldEdit();
 					window.frmFieldEdit.setVisible(true);
+					window.frmFieldEdit.pack();
 					opened = true;
 					Sys_Util.openedWindows.add("FieldEdit");
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

@@ -41,6 +41,7 @@ public class Gui_About {
 				try {
 					Gui_About window = new Gui_About();
 					window.frmAboutDiscordEms.setVisible(true);
+					window.frmAboutDiscordEms.pack();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -83,6 +84,7 @@ public class Gui_About {
 		frmAboutDiscordEms.setTitle(BUNDLE.getString("Gui_About.frmAboutDiscordEms.title")); //$NON-NLS-1$
 		frmAboutDiscordEms.setResizable(false);
 		frmAboutDiscordEms.setBounds(100, 100, 430, 320);
+		
 		frmAboutDiscordEms.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frmAboutDiscordEms.getContentPane().setLayout(null);
 		frmAboutDiscordEms.getContentPane().setBackground(Sys_Util.discorddark);
@@ -106,7 +108,7 @@ public class Gui_About {
 		lblPoweredByJda.setBounds(10, 96, 171, 14);
 		frmAboutDiscordEms.getContentPane().add(lblPoweredByJda);
 		
-		Sys_SwingLink lblJdajavaDiscord = new Sys_SwingLink("JDA (Java Discord API) - 3.8.1_454","https://github.com/DV8FromTheWorld/JDA");
+		Sys_SwingLink lblJdajavaDiscord = new Sys_SwingLink("JDA (Java Discord API) - 4.2.0_225","https://github.com/DV8FromTheWorld/JDA");
 		lblJdajavaDiscord.setForeground(Color.WHITE);
 		lblJdajavaDiscord.setBounds(10, 121, 203, 22);
 		frmAboutDiscordEms.getContentPane().add(lblJdajavaDiscord);
@@ -119,7 +121,7 @@ public class Gui_About {
 		lblSlfj.setBounds(10, 169, 203, 22);
 		frmAboutDiscordEms.getContentPane().add(lblSlfj);
 		
-		JLabel lblJuly = new JLabel(Sys_Start.version+" - 2019");
+		JLabel lblJuly = new JLabel(Sys_Start.version+" - 2021");
 		lblJuly.setHorizontalAlignment(SwingConstants.CENTER);
 		lblJuly.setForeground(Color.WHITE);
 		lblJuly.setBounds(239, 266, 132, 14);
@@ -133,7 +135,7 @@ public class Gui_About {
 		lblNewLabel_1.setBounds(10, 46, 404, 22);
 		frmAboutDiscordEms.getContentPane().add(lblNewLabel_1);
 		
-		Sys_SwingLink sys_SwingLink = new Sys_SwingLink("JNA - 5.3.1", "https://github.com/java-native-access/jna");
+		/*Sys_SwingLink sys_SwingLink = new Sys_SwingLink("JNA - 5.3.1", "https://github.com/java-native-access/jna");
 		sys_SwingLink.setForeground(Color.WHITE);
 		sys_SwingLink.setBounds(10, 193, 203, 22);
 		frmAboutDiscordEms.getContentPane().add(sys_SwingLink);
@@ -141,11 +143,13 @@ public class Gui_About {
 		Sys_SwingLink sys_SwingLink_1 = new Sys_SwingLink("JNA Platform - 5.3.1", "https://github.com/java-native-access/jna");
 		sys_SwingLink_1.setForeground(Color.WHITE);
 		sys_SwingLink_1.setBounds(10, 217, 203, 22);
-		frmAboutDiscordEms.getContentPane().add(sys_SwingLink_1);
+		frmAboutDiscordEms.getContentPane().add(sys_SwingLink_1);*/
 		
 		Sys_SwingLink sys_SwingLink_2 = new Sys_SwingLink("imgscalr - 4.2", "https://github.com/rkalla/imgscalr");
 		sys_SwingLink_2.setForeground(Color.WHITE);
-		sys_SwingLink_2.setBounds(10, 241, 203, 22);
+		sys_SwingLink_2.setBounds(10, 202, 203, 22);
 		frmAboutDiscordEms.getContentPane().add(sys_SwingLink_2);
+		
+		
 	}
 }

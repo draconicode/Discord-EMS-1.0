@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_BlankFieldEdit;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_FieldEdit;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Main;
-import net.dv8tion.jda.core.entities.MessageEmbed.Field;
+import net.dv8tion.jda.api.entities.MessageEmbed.Field;
 
 public class Sys_LoadEmbed {
 	public static void loadEmbed(Sys_Embed embed) {

@@ -7,11 +7,10 @@ import fr.dreregon.Discord_EMS.system.Sys_Util;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Main;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_Network;
 import fr.dreregon.Discord_EMS.system.GUI.Gui_TokenError;
-import net.dv8tion.jda.core.AccountType;
-import net.dv8tion.jda.core.JDA;
-import net.dv8tion.jda.core.JDABuilder;
-import net.dv8tion.jda.core.exceptions.ErrorResponseException;
-import net.dv8tion.jda.core.requests.ErrorResponse;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.exceptions.ErrorResponseException;
+import net.dv8tion.jda.api.requests.ErrorResponse;
 
 public class Bot {
 	private static JDA jda;
@@ -24,7 +23,7 @@ public class Bot {
 	public static void startBot(String token, int status) {
 		Sys_Splash.main(null);
 		try {
-			jda = new JDABuilder(AccountType.BOT).setToken(token).build();
+			jda = JDABuilder.createDefault(token).build();
 		} catch (ErrorResponseException e) {
 			//Sys_Util.println(e.getErrorResponse().toString());
 			Sys_Util.println("<Bot> - Error : "+e.getMessage());
@@ -75,6 +74,7 @@ public class Bot {
 	 * @return Current launched bot's JDA
 	 */
 	public static JDA getJDA() {
+		
 		return jda;
 	}
 	

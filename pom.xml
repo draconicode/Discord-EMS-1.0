@@ -51,11 +51,6 @@
   		<version>4.5.1</version>
   	</dependency>
   	<dependency>
-  		<groupId>net.java.dev.jna</groupId>
-  		<artifactId>jna-platform</artifactId>
-  		<version>4.5.1</version>
-  	</dependency>
-  	<dependency>
   		<groupId>org.slf4j</groupId>
   		<artifactId>log4j-over-slf4j</artifactId>
   		<version>1.7.25</version>
@@ -68,7 +63,7 @@
   	<dependency>
     	<groupId>net.dv8tion</groupId>
     	<artifactId>JDA</artifactId>
-    	<version>3.8.3_464</version>
+    	<version>4.2.0_225</version>
     	<exclusions>
         	<exclusion>
             <groupId>club.minnced</groupId>

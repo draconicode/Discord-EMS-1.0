@@ -13,9 +13,9 @@ import fr.dreregon.Discord_EMS.bot.Bot;
 import fr.dreregon.Discord_EMS.system.Sys_Start;
 import fr.dreregon.Discord_EMS.system.Sys_SwingLink;
 import fr.dreregon.Discord_EMS.system.Sys_Util;
-import net.dv8tion.jda.core.OnlineStatus;
-import net.dv8tion.jda.core.exceptions.ErrorResponseException;
-import net.dv8tion.jda.core.requests.ErrorResponse;
+import net.dv8tion.jda.api.OnlineStatus;
+import net.dv8tion.jda.api.exceptions.ErrorResponseException;
+import net.dv8tion.jda.api.requests.ErrorResponse;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;

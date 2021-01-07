@@ -60,6 +60,7 @@ public class Gui_ColorChooser {
 				Sys_Util.openedWindows.add("ColorChooser");
 				Gui_ColorChooser window = new Gui_ColorChooser();
 				window.frmDiscordemsColorChooser.setVisible(true);
+				//window.frmDiscordemsColorChooser.pack();
 			}
 		});
 	}

@@ -14,7 +14,7 @@ import javax.swing.JTextArea;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import net.dv8tion.jda.core.entities.MessageEmbed.Field;
+import net.dv8tion.jda.api.entities.MessageEmbed.Field;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
@@ -354,6 +354,7 @@ public class Gui_Main {
 		mnOptions.add(mntmConsole);
 
 		JMenuItem mntmCheckForUpdates = new JMenuItem(BUNDLE.getString("Gui_Main.mntmCheckForUpdates.text")); //$NON-NLS-1$
+		mntmCheckForUpdates.setEnabled(false);
 		mntmCheckForUpdates.setIcon(new ImageIcon(Gui_Main.class.getResource("/fr/dreregon/Discord_EMS/system/media/Discord-EMS_16_Update.png")));
 		mnOptions.add(mntmCheckForUpdates);
 
